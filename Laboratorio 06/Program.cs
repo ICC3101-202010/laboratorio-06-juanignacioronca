@@ -18,6 +18,7 @@ namespace Laboratorio_06
                 if (a==1)
                 {
 
+
                 }
             }
         }
