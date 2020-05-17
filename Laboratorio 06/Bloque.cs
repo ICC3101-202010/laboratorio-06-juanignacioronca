@@ -23,7 +23,7 @@ namespace Laboratorio_06
 
         public string Informacion_Bloque()
         {
-            string a = "Nombre del bloque: " + Nombre + "\n Nombre del encargado: " + Encargado.Nombre + " " + Encargado.Apellido+"\n";
+            string a = "Nombre del bloque: " + Nombre + "\nNombre del encargado: " + Encargado.Nombre + " " + Encargado.Apellido+"\n";
             foreach (var item in Personal)
             {
                 a += item.Informacion_Persona();

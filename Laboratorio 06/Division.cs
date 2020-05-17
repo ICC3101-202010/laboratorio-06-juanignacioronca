@@ -25,7 +25,7 @@ namespace Laboratorio_06
 
         public string Informacion_Division()
         {
-            string a = "Nombre de la division: " + Nombre + "\n Nombre del encargado: " + Encargado.Nombre + " " + Encargado.Apellido+"\n";
+            string a = "Nombre de la division: " + Nombre + "\nNombre del encargado: " + Encargado.Nombre + " " + Encargado.Apellido+"\n";
             foreach (var item in Lista_Areas)
             {
                 a += item.Informacion_Area();
