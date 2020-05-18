@@ -13,7 +13,7 @@ namespace Laboratorio_06
     {
         public string Nombre;
         public Persona Encargado;
-                public List<Persona> Personal = new List<Persona>();
+        public List<Persona> Personal = new List<Persona>();
 
         public Bloque(string nombre, Persona encargado)
         {
